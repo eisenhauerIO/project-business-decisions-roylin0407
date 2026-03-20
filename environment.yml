@@ -26,6 +26,7 @@ dependencies:
   - nbconvert
 
   - pip
-
+  - ruff
   - pip:
       - nbmake
+      - ruff
