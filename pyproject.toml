@@ -1,7 +1,7 @@
 [project]
-name = "student-project"
+name = "tax-reform-did"
 version = "0.1.0"
-description = "Replication of Lindo et al. (2010) - Academic Probation RDD Analysis"
+description = "Difference-in-Differences analysis of the 1986 Tax Reform Act and married women's labor supply (replication of Eissa 1996)"
 requires-python = ">=3.11"
 
 [tool.ruff]

@@ -1,23 +1,31 @@
-name: projects-student-template
+name: tax-reform-did-project
+
 channels:
   - conda-forge
   - defaults
+
 dependencies:
-  # Core scientific packages (pinned to major.minor)
-  - python>=3.11,<3.14
+  # Core language
+  - python=3.14.2
+
+  # Data + analysis
   - numpy>=2.0
   - pandas>=2.0
+  - scipy>=1.14
+
+  # Econometrics / stats
+  - statsmodels>=0.14
+
+  # Visualization
   - matplotlib>=3.9
   - seaborn>=0.13
-  - scipy>=1.14
-  - statsmodels>=0.14
-  # Development tools
+
+  # Notebook environment
   - jupyterlab
   - ipykernel
   - nbconvert
-  - pytest
-  - ruff
-  - pre-commit
+
   - pip
+
   - pip:
       - nbmake
