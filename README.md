@@ -1,5 +1,8 @@
 # Tax Reform and Married Women’s Labor Supply (DiD Analysis)
 
+## Main notebook
+[Open project notebook](./project.ipynb)
+
 ## Project Overview
 This project analyzes the impact of the **1986 Tax Reform Act** on married women’s employment using a **difference-in-differences (DiD)** approach.
 
